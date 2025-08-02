@@ -134,7 +134,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/background-section-one.jpg);
-  width: 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,11 +170,16 @@ img {
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .section-button:hover,
 .section-button:focus {
   background: #404bbf;
 }
+
 /*section-two*/
 
 .page-benefits {
