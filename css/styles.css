@@ -232,7 +232,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*section 3*/
+/*section-three*/
 
 .name-prof {
   padding: 32px 0;
@@ -283,6 +283,11 @@ img {
   text-align: center;
   color: #434455;
 }
+
+.list-social-media {
+  display: flex;
+}
+
 .list-item-team {
   background-color: #ffffff;
 }
