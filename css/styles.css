@@ -182,6 +182,17 @@ img {
 
 /*section-two*/
 
+.container-svg {
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .page-benefits {
   padding: 120px 0;
 }
