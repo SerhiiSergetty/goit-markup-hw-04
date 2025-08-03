@@ -374,6 +374,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.container-samb {
+  position: relative;
+}
 /*footer*/
 
 .footer-logo {
