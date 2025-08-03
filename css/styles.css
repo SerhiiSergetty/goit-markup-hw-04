@@ -452,6 +452,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
 }
 
 .footer-paragrapf-social {
@@ -460,4 +462,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+.page-container {
+  display: flex;
+  align-items: baseline;
 }
