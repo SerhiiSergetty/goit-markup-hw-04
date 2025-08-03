@@ -317,6 +317,10 @@ img {
   align-items: center;
 }
 
+.icons-svg {
+  fill: #f4f4fd;
+}
+
 .list-item-team {
   background-color: #ffffff;
 }
