@@ -434,3 +434,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+.container-footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
