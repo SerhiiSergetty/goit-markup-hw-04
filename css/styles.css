@@ -440,3 +440,16 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+.footer-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
