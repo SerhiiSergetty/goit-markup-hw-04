@@ -138,6 +138,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 
 .section-paragraph {
@@ -255,6 +256,9 @@ img {
 .list-item-team {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .team-name {
   margin-bottom: 8px;
@@ -286,6 +290,21 @@ img {
 
 .list-social-media {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-networks {
+  width: 40px;
+  height: 40px;
+}
+
+.icons-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 .list-item-team {
