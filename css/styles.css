@@ -435,12 +435,6 @@ img {
   color: #f4f4fd;
 }
 
-.container-footer-social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-social-media {
   display: flex;
   justify-content: center;
@@ -470,4 +464,8 @@ img {
 .page-container {
   display: flex;
   align-items: baseline;
+}
+
+.container-footer {
+  margin-right: 120px;
 }
